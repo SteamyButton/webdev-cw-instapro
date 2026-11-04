@@ -176,7 +176,7 @@
   text-align: center;
 }
 
-.file-upload-image-conrainer {
+.file-upload-image-container {
   display: flex;
   align-items: center;
 }
@@ -195,4 +195,11 @@
   box-sizing: border-box;
   width: 100%;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .post-image-container {
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
 }
